@@ -1,5 +1,8 @@
 package com.jackcorless;
 
+import java.awt.*;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         byte myAge = 30;
@@ -16,5 +19,14 @@ public class Main {
 //        'double', 8 bytes
 //        'char', 2 bytes ('')
 //        'boolean' 1 byte
+
+
+        Date now = new Date();
+        System.out.println(now);
+
+        Point point1 = new Point(1, 1);
+        Point point2 = point1;
+        point1.x = 2;
+        System.out.println(point2);
     }
 }
