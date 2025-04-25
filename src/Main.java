@@ -29,10 +29,12 @@ public class Main {
         point1.x = 2;
 //        System.out.println(point2);
 
-        String message = "yo" + "!!   ";
-        System.out.println(message.replace("!", "*"));
-        System.out.println(message);
+//        String message = "yo" + "!!   ";
+//        System.out.println(message.replace("!", "*"));
+//        System.out.println(message);
 
+        String message = "c:\tWindows\\...";
+        System.out.println(message);
 
     }
 }
