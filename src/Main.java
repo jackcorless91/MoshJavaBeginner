@@ -20,6 +20,15 @@ public class Main {
 //        'char', 2 bytes ('')
 //        'boolean' 1 byte
 
+        //              PRIMITIVE TYPES
+//        'byte', 1 byte = [-128, 127]
+//        'short', 3 bytes = [-32k, 32k]
+//        'int', 4 bytes = [-2b, 2b]
+//        'long' 8 bytes
+//        'float', 4 bytes
+//        'double', 8 bytes
+//        'char', 2 bytes ('')
+//        'boolean' 1 byte
 
         Date now = new Date();
 //        System.out.println(now);
@@ -33,8 +42,14 @@ public class Main {
 //        System.out.println(message.replace("!", "*"));
 //        System.out.println(message);
 
-        String message = "c:\tWindows\\...";
-        System.out.println(message);
+//        String message = "c:\tWindows\\...";
+//        System.out.println(message);
+
+        int[] numbers = new  int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+        System.out.println(numbers);
+
 
     }
 }
