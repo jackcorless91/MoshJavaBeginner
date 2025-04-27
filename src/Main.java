@@ -1,6 +1,7 @@
 package com.jackcorless;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -45,11 +46,13 @@ public class Main {
 //        String message = "c:\tWindows\\...";
 //        System.out.println(message);
 
-        int[] numbers = new  int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-        System.out.println(numbers);
+//        int[] numbers = { 2, 3, 4, 5, 1, 4 };
+//        Arrays.sort(numbers);
+//        System.out.println(numbers.length);
+//        System.out.println(Arrays.toString(numbers));
 
+        int[][] numbers = { { 1, 2, 3}, { 4, 5, 6 } };
+        System.out.println(Arrays.deepToString(numbers));
 
     }
 }
